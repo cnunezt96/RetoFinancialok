@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ee73f767a31d9eff2b0e4124b7158df1cef5c13837364d589a3264a79db64d34.html">Registro De Usuario En Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="c486786bc9e59fe78036ac4be0cf4a5bb5def8d51bef4b968c2f3b516187a93d.html">Registro de Camilo en la pagina Utest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-07-2022 17:25</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario En Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro de Camilo en la pagina Utest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="4478c5971305e039549e844ce39cb0880108eb03319b5e26066b4535ce49df23.png" title="Given : Camilo quiere registrarse en Utest" width="1366"/>
+                <img src="3ed94d937322d39bcd05c29bd86fa33c6d79b3e2ba9dbdc6b353aa4c8d295f44.png" title="Camilo opens the Pagina utest" width="1366"/>
+                <img src="f353239d4181574ce6b11a5260f8b17936d96cdc17b585ec09765cdef45df78d.png" title="Camilo clicks on Boton para iniciar registro" width="1366"/>
+                <img src="fd964e4616d6a5c74fdc839121a7b09d5c2e2745da7189a109ebd5682b2ae951.png" title="Camilo clicks on Boton para iniciar registro" width="1366"/>
+                <img src="7ee9c491836deda3d3d274c6befda352f600be083dc46f6b5ede6caebf4fd6f8.png" title="When : El  usuario ingresa los datos requeridos por el sistema
+| strNombre | strApellido | strCorreo | strMes | strDia | strAno | strCiudad | strZip | strPais | strComputador | strModelComputador | strLenguaje | strDispositivoMovil | strModeloMovil | strSoMovil | strClave |
+| Camilo | Nunez | iu43565698764643254w14@gmail.com | January | 11 | 1996 | Palmira | 12345 | Colombia | Linux | Ubuntu | Spanish | Apple | iphone 5s | iOS 11.0 | Camilo123. |" width="1366"/>
+                <img src="80c5438b2b5b4fac6f376faae069612567323a9c3dcce3dc34f8dcac46ce81ea.png" title="When : El  usuario ingresa los datos requeridos por el sistema
+| strNombre | strApellido | strCorreo | strMes | strDia | strAno | strCiudad | strZip | strPais | strComputador | strModelComputador | strLenguaje | strDispositivoMovil | strModeloMovil | strSoMovil | strClave |
+| Camilo | Nunez | iu43565698764643254w14@gmail.com | January | 11 | 1996 | Palmira | 12345 | Colombia | Linux | Ubuntu | Spanish | Apple | iphone 5s | iOS 11.0 | Camilo123. |" width="1366"/>
+                <img src="123f6b9e6fe1efa2b02b42c2186a82899bd99a68bb808c7f9018c95bb23ad79f.png" title="Camilo enters 'Camilo' into Ingresar el nombre" width="1366"/>
+                <img src="078a46893ae2a773ab1a49243ca838b532fe0654eccd21365c6e141bf7982f76.png" title="Camilo enters 'Camilo' into Ingresar el nombre" width="1366"/>
+                <img src="94c26f99f8958abd5f7d110e5e9b7c8f5e0c5aebd4af9cee954690e6e9adcf5b.png" title="Camilo enters 'Nunez' into Ingresar el apellido" width="1366"/>
+                <img src="b3db4d8af25998a1a05be3a7916cc2db4d3a96da9554db786f0c1f247e0393a5.png" title="Camilo enters 'Nunez' into Ingresar el apellido" width="1366"/>
+                <img src="b3db4d8af25998a1a05be3a7916cc2db4d3a96da9554db786f0c1f247e0393a5.png" title="Camilo enters 'iu43565698764643254w14@gmail.com' into Ingresar el correo" width="1366"/>
+                <img src="c30d204c685845d94479769c43d1a2025aa4b73229e68446e677e003c6495ad1.png" title="Camilo enters 'iu43565698764643254w14@gmail.com' into Ingresar el correo" width="1366"/>
+                <img src="c30d204c685845d94479769c43d1a2025aa4b73229e68446e677e003c6495ad1.png" title="Camilo select January on Ingresar mes de nacimiento" width="1366"/>
+                <img src="8bd668008d703db9f0b2b60969abaeb99b9e0975aa6b2288599f49922ae21326.png" title="Camilo select January on Ingresar mes de nacimiento" width="1366"/>
+                <img src="8bd668008d703db9f0b2b60969abaeb99b9e0975aa6b2288599f49922ae21326.png" title="Camilo select 11 on Ingresar dia de nacimiento" width="1366"/>
+                <img src="e4dafa6edf3d8bbf342935c21d38c4a31bde471156597c228a00c8e007067297.png" title="Camilo select 11 on Ingresar dia de nacimiento" width="1366"/>
+                <img src="e4dafa6edf3d8bbf342935c21d38c4a31bde471156597c228a00c8e007067297.png" title="Camilo select 1996 on Ingresar a&ntilde;o de nacimiento" width="1366"/>
+                <img src="712e90f511b278b7499e8cf59287659dce0b86cfec723c67ec17b868e89ad108.png" title="Camilo select 1996 on Ingresar a&ntilde;o de nacimiento" width="1366"/>
+                <img src="712e90f511b278b7499e8cf59287659dce0b86cfec723c67ec17b868e89ad108.png" title="Camilo clicks on Boton que nos dirige al formulario ubicaci&oacute;n" width="1366"/>
+                <img src="ab94e36060d5076e3ad69060cdf83cfee23dd34cc2ddc3851ae55a5e1aedb0e8.png" title="Camilo clicks on Boton que nos dirige al formulario ubicaci&oacute;n" width="1366"/>
+                <img src="d02bb38254c9f36b7c963159827fcc5f9db5a2f06ee33fc0bc47365fadb3b7b0.png" title="Camilo enters 'Palmira' into Seleccionar ciudad" width="1366"/>
+                <img src="3b1e61b169258477b5143c4345966d73376d3fe7326d9eb705d0a59e9b27994e.png" title="Camilo enters 'Palmira' into Seleccionar ciudad" width="1366"/>
+                <img src="6b9c5df6c6a624ac086076c9611d4a6491ecdfb4dc76b6229732bf1d09672ab9.png" title="Camilo types 'ARROW_DOWN' in Seleccionar ciudad" width="1366"/>
+                <img src="35990f10f1d4870a1ff9247058c0367040dd0704d653a63031b576b1b4feba15.png" title="Camilo types 'ARROW_DOWN' in Seleccionar ciudad" width="1366"/>
+                <img src="1b8b4db4f8db6ccdaa19481b79838dd7cadd7aa135af78612c56e6627dd82fc6.png" title="Camilo types 'ENTER' in Seleccionar ciudad" width="1366"/>
+                <img src="69a7fd8f0f768ba368d275a8203727060de7d2febde9e7d0d9ed88b5d4ecfffe.png" title="Camilo types 'ENTER' in Seleccionar ciudad" width="1366"/>
+                <img src="2217ec660899492d5c513c739994b702d15c99d411e23c39b479b2a2fe1d5acc.png" title="Camilo enters '12345' into Ingresar zip" width="1366"/>
+                <img src="a67e5e2a9ef1c7905f5d7a3ba1448eccab6a37969a4b5031630b8e6a36937bb6.png" title="Camilo enters '12345' into Ingresar zip" width="1366"/>
+                <img src="67a88213810da4df2cd976d26a3365ac002ae646d9ff5d7e98f8da63e0cd985c.png" title="Camilo clicks on Contenedor Pais" width="1366"/>
+                <img src="7be263c7751d4e48583b99425a23b19c3a62c7e386cd2c935ad9a8699bd33802.png" title="Camilo clicks on Contenedor Pais" width="1366"/>
+                <img src="ca8cd34a6b0bf64b8520939232baf8e16dc746b16c7fc2752db867584315b2fb.png" title="Camilo enters 'Colombia' into Seleccionar pais" width="1366"/>
+                <img src="72819eab48fe5f89034fff4ec4abebaceb72f027b9173ae932c54b70559434f0.png" title="Camilo enters 'Colombia' into Seleccionar pais" width="1366"/>
+                <img src="ce6bb0721696b2bf5a58d201d66cbc8eca4c54f5f72980c08d69cf6cbddce171.png" title="Camilo clicks on Boton que nos dirige al formulario dispositivos" width="1366"/>
+                <img src="821ea4aa19a3159716933f0e380652daa331b45f20ff4ee9ffce499f47776e26.png" title="Camilo clicks on Contenedor computer" width="1366"/>
+                <img src="7048163a1dbaf358c947dd0555dfcaaeb83a3f7b96938f943a78440ec5e98493.png" title="Camilo clicks on Contenedor computer" width="1366"/>
+                <img src="aac5632055aceaef3debe9fc3ec7bcdcb285b483c3ae197b8367a848343d6a26.png" title="Camilo enters 'Linux' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="d04f05bff0ba9685e94c24f0946e1791b2c59833c0e6ba60de1475523326a2dd.png" title="Camilo enters 'Linux' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="5fe94d367c1de08e69fcb9b54ba26abe87a9b3f09b5f8498955b833af68e8f84.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="cd04327ad50583230b287fa55c578024d30ba601100c4fb42217b08a2ac7ad17.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="56342349fa4145da75e35bc81d16e07d523ea74db6c5d674042c0de095d1ec2e.png" title="Camilo enters 'Ubuntu' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="b15c06b349942025e6c5e57d25fb133a3eff09e7b930b5b44c2f122061a8a0b9.png" title="Camilo enters 'Ubuntu' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="a2c8a9d18483ecf1577b32de7f72f8daefd5e97f01225d30662d1f8992e8a697.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="f5be9a57c0a3ff30773a43fa9a0b2672a30ae41e0cec192e02274d4962300acf.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="e1afb99476fad5142ee8c9b9e3e612f375f653a18ab47cb12083235e7bc6d7f6.png" title="Camilo enters 'Spanish' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="cbba5aeff2196ba8bd6967362b6c13f5f0cb50073fc5f22fee8deaae2ec5bf96.png" title="Camilo enters 'Spanish' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="4a8b6546beb2ac8f6a7dfb95cccd39119b3304b83548f3f8a8ed68c10c2d025a.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="cc9f2b8e6b0e7ac5b6ed30b02386797f34d76bbf6d659cb202e2c92c97de30a5.png" title="Camilo clicks on Contenedor dispositivo movil" width="1366"/>
+                <img src="e63a4f2413651452ea7070de9c385776e4daaf0c114ffd0fe26af13c120a7589.png" title="Camilo enters 'Apple' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="8551a7f86d395a51db0f83a3a52c403136009703c30e088f4387453fd59cae0f.png" title="Camilo enters 'Apple' into Seleccionar dispositivo movil" width="1366"/>
+                <img src="874981aaf9aaccc9a10fdeedb20c75440a47bb1f8f6f4d05c53dc1a6c773120f.png" title="Camilo clicks on Contenedor modelo movil" width="1366"/>
+                <img src="7f280e493864ff1ae20bacbbc96ed3474de9e7e3db44d3575ee8845784dcf982.png" title="Camilo clicks on Contenedor modelo movil" width="1366"/>
+                <img src="dcb269dc68fd0c9ef72d8c075937f74fdfaada266e9f0a98f4dc4e648e8e0119.png" title="Camilo enters 'iphone 5s' into Seleccionar modelo de dispositivo movil" width="1366"/>
+                <img src="bbc1b3fcb5241d90a089a2a2ae614b94c9e1fdd6e6d5b76733e3ca9924fb9703.png" title="Camilo enters 'iphone 5s' into Seleccionar modelo de dispositivo movil" width="1366"/>
+                <img src="9fc1ebda6e7086abbc39680451910ce9ef08abf4072b4df2ee87c484517c9d1a.png" title="Camilo clicks on Contenedor SO" width="1366"/>
+                <img src="fa1123dc31041ac30be28ed0094ab786a182e084225162c40b964069b701c4dc.png" title="Camilo clicks on Contenedor SO" width="1366"/>
+                <img src="dc0b7e75616df3a19568d50486304ac49f9bf7327eaf7166c3b435b80a25ee86.png" title="Camilo enters 'iOS 11.0' into Seleccionar so " width="1366"/>
+                <img src="a35fc3daa580843e0a8d3e24c6547e48878a252f326fa453e0a19a21208400f2.png" title="Camilo enters 'iOS 11.0' into Seleccionar so " width="1366"/>
+                <img src="d50495c50ee0abce107c70a48f377f907d272d64df317b57e2c20030e61204cf.png" title="Camilo clicks on Boton que nos dirige al ultimo formulario" width="1366"/>
+                <img src="dfd8ac3037b8d5699f74f8f04865dd82bc5d77a60a79d8eb17abe78b7877acd9.png" title="Camilo clicks on Boton que nos dirige al ultimo formulario" width="1366"/>
+                <img src="72ab6d556ee14fd6511a447e5a8c5211dcf7f73b0a4aa67f5f6ae1d20969eed2.png" title="Camilo enters 'Camilo123.' into Clave de usuario" width="1366"/>
+                <img src="107915ad522d2aed4679fee5a3c6ee1c7ad5d281e4d281f87e3213f8f62f24ff.png" title="Camilo enters 'Camilo123.' into Clave de usuario" width="1366"/>
+                <img src="b15aaf43089edc153db0b497f2ff3ed9af1f5cf1539f45b8d93b611e483a1adb.png" title="Camilo enters 'Camilo123.' into Confirmar clave de usuario" width="1366"/>
+                <img src="fa5be888f99819c2393fb549712f04c8b303ee3a48c3ad0291161f16ba0aa149.png" title="Camilo enters 'Camilo123.' into Confirmar clave de usuario" width="1366"/>
+                <img src="b73285d06f95d3a8063b643243fc67586ac20a777d786821a16f2e35b7ba687b.png" title="Camilo clicks on Checbox 1" width="1366"/>
+                <img src="c6871f8a3648ad0eef6a123610b8b25a4736798f118cbed297c1002f3de834ca.png" title="Camilo clicks on Checbox 1" width="1366"/>
+                <img src="c6871f8a3648ad0eef6a123610b8b25a4736798f118cbed297c1002f3de834ca.png" title="Camilo clicks on Checbox 2" width="1366"/>
+                <img src="0587d6e3aaef2c58a635d923b37d658fb229efddb99abd5c7a0b85a2b83047a7.png" title="Camilo clicks on Checbox 2" width="1366"/>
+                <img src="0587d6e3aaef2c58a635d923b37d658fb229efddb99abd5c7a0b85a2b83047a7.png" title="Camilo clicks on Checbox 3" width="1366"/>
+                <img src="c8c6593fe6784aa4d6d5cccfe01ec28613940d7e0a54bbdc91f876aacf71aedf.png" title="Camilo clicks on Checbox 3" width="1366"/>
+                <img src="c8c6593fe6784aa4d6d5cccfe01ec28613940d7e0a54bbdc91f876aacf71aedf.png" title="Camilo clicks on Boton de completar el registro" width="1366"/>
+                <img src="38836bb87a157e9f13be2c6ff83474c96a3306152f339fa9009e93eca0a96523.png" title="Camilo clicks on Boton de completar el registro" width="1366"/>
+                <img src="8c349ca2b881d98d44699c42cb5113a5432bf690f70c8f1ff6b94d87ab2a5802.png" title="Then : El registro se completa al ver el boton de Complete Setup
+| strTextoFinal |
+| Complete Setup |" width="1366"/>
+                <img src="d2b8a585b429fb9caf56cf9d3465ed0bb643f3c5531131a6577440a3971c3970.png" title="Then : El registro se completa al ver el boton de Complete Setup
+| strTextoFinal |
+| Complete Setup |" width="1366"/>
+                <img src="c7d89acf923e26d9aa0df986214d0d09132f5e3c68a565afe89a6db047afbee9.png" title="Then responder" width="1366"/>
+                <img src="0333eaae517c0d112aa962b7a4ab8dd2b2f2317f1e7ada0b69355f9717a619c8.png" title="Then responder: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
